@@ -19,7 +19,6 @@ class SpeakerViewModel : ViewModel() {
         speakerList.value = spList
     }
     private fun fechList(){
-        /*
         spList.add(Speaker(R.drawable.speaker01,"Uriel Pacheco","Aplicacion iOS escalables con Clean Architecture"))
         spList.add(Speaker(R.drawable.speaker02,"Mauricio Hernandez","SRE para aplicaciones móviles"))
         spList.add(Speaker(R.drawable.speaker03,"Juan Guillermo Gomez","GRPC para Android - Un eficiente framework de comunicación RPC"))
@@ -44,6 +43,5 @@ class SpeakerViewModel : ViewModel() {
         spList.add(Speaker(R.drawable.speaker22,"Marco Erlwein","Blazor The Big Picture"))
         spList.add(Speaker(R.drawable.speaker23,"Santiago Carrillo","Inyección de Dependencias con Hilt"))
         spList.add(Speaker(R.drawable.speaker24,"Juan Villalvazo","Pasos para NO tener éxito como programador"))
-        */
     }
 }
